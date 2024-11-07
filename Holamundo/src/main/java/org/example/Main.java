@@ -10,7 +10,7 @@ public class Main {
         JFrame ventana=new JFrame("Ejercicios GIT");
         ventana.getDefaultCloseOperation();
         ventana.setBounds(0,0,600,200);
-        ventana.add(new JLabel("Super MondonGO"));
+        ventana.add(new JButton("Super MondonGO"));
         ventana.setVisible(true);
     }
 }

@@ -6,6 +6,11 @@ import javax.swing.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null,"Hola mundo desde local");
+
+        JFrame ventana=new JFrame("Ejercicios GIT");
+        ventana.getDefaultCloseOperation();
+        ventana.setBounds(0,0,600,200);
+        ventana.add(new JLabel("Mondongo"));
+        ventana.setVisible(true);
     }
 }
